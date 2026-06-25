@@ -1,6 +1,6 @@
 # bot-FUNDvoiculescu
 Cum să faci farm la voturi pentru că sunt un leneș.
-## Background story (the drama)
+## Long story short
 Deci. Dirigu a zis pe grup ca "Va rog sa votați... Contorizați voturile ...fiecare... La final îmi trimiteți" și eu CRED ca o sa dea un plus sau un 10 la cel care va avea cele mai multe voturi. Având în vedere că cunostintele mele la matematica sunt lowkey la **fund** (wink wink), vreau plusu sau nota de 10 pe cand incepe scoala. 
 
 ## Care e faza cu mizeria asta de cod?
