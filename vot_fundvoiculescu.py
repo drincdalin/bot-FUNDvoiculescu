@@ -13,7 +13,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import re
 
 # ================== CONFIG ==================
-CANDIDATE_NAME = "Elisabeta Ana Naghi"
+CANDIDATE_NAME = "un anumit candidat nu zicem but be sure ca numele e ca si ala de pe card"
 NUM_VOTES = 2000
 RESTART_EVERY = 10   # restart browser la fiecare X voturi ca sa nu se blocheze
 # ===========================================
