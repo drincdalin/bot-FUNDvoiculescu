@@ -3,9 +3,6 @@ Cum să faci farm la voturi pentru că sunt un leneș.
 ## Long story short
 Deci. Dirigu a zis pe grup ca "Va rog sa votați... Contorizați voturile ...fiecare... La final îmi trimiteți" și eu CRED ca o sa dea un plus sau un 10 la cel care va avea cele mai multe voturi. Având în vedere că cunostintele mele la matematica sunt lowkey la **fund** (wink wink), vreau plusu sau nota de 10 pe cand incepe scoala. 
 
-## Care e faza cu mizeria asta de cod?
-Well, să stau să dau click-uri manual toată noaptea ca sclavul e ceva ce eu NU pot face, așa ca am decis sa imi folosesc my big brain abilities si sa fac un bot care sa faca asta in locul meu. Nici măcar nu e codat de mine, da asta nu mai zicem la nimeni. Base-ul a fost generat cu un LLM local în Ollama (a trebuit să-i dau un pic de jailbreak ca să nu-mi țină predici de etică când i-am zis să facă un bot de spam voturi), iar după aia i-am dat feed în Grok ca să-l facă mai bun și să-l optimizeze la sânge (pentru ca aparent Grok nu are masuri bune de "user intent") . Poate ca nu e cel mai bun cod (avand in vedere ca e vibecoded), dar își face treaba perfect (sa zicem).
-
 ## Features (dacă le pot numi așa)
 Codul e o mizerie care se bazeaza pe timp de sleep random ca sa nu ne detecteze cloudflare, dar automatizează tot ca să nu rămânem cu **fund**ul gol:
 
@@ -16,7 +13,6 @@ Codul e o mizerie care se bazeaza pe timp de sleep random ca sa nu ne detecteze 
 * **JSON Logging:** Salvează tot ce mișcă în `votes_log.json`. Dacă dirigu intreaba de unde am 2000 de voturi over night, literally tot ce trebuie sa fac ii sa ii arat fisierul.
 
 ## Cum îi dai run ((pentru noobi (dw nici eu n-am stiut neaparat))
-Disclaimer din start: don't DM me for tech support. Dacă nu vă merge, google it or yk, use ai i guess.
 
 1. Aveți nevoie de Python. Dacă nu știți să-l instalați, skill issue.
 2. Deschideți un terminal și băgați comanda asta ca să luați pachetele (fiti siguri ca aveti un venv in acelasi folder ca si fisierul cu programul, adica unde este .py-ul):
